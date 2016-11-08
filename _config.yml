@@ -1,11 +1,12 @@
 
 title: Nekosan App
 description: "Website of the new mobile app Nekosan"
-host: "localhost"
+BASE_PATH: https://eugenedesigner.github.io/Nekosan-website/
 
 
 
 markdown: 	 kramdown
 permalink:   pretty
 exclude:		 ['_build', '.bowerrc', '.gitignore', '_config.yml', 'bower.json', 'config.rb', 'README.md']
+include:     ['bower_components']
 destination: _deploy
