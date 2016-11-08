@@ -1,0 +1,80 @@
+
+.mobile {
+  padding: 50px 0 100px;
+}
+
+.mobile__slider {
+  width: 275px;
+  height: 576px;
+  background: url('../img/mobile.png') no-repeat 0 0;
+  position: relative;
+  border-radius: 33px;
+  padding: 50px 6px 61px;
+  background-size: contain;  
+  overflow: hidden;
+  margin: 0 auto;
+  display: block;
+
+
+
+ li {
+   margin: 0;
+
+ }
+
+ img {
+   width: 100%;
+ }
+}
+
+
+//right column mobile
+.mobile__name {
+
+  max-width: 60%;
+  margin: 7% auto 0;
+
+  .icon {
+    height: 80px;
+    width: 100%;
+
+
+    img {
+      display: block;
+      margin: 0 auto;
+      height: 100%;
+      width: auto;
+    }
+  }
+
+  h1 {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 4em;
+  }
+
+  p {
+    padding-top: 10px;
+    font-size: 1.2em;
+  }
+
+}
+
+.mobile__name__store {
+
+  margin-top: 40px;
+}
+
+
+
+@media only screen and (max-width: 940px) {
+
+  .mobile__slider {
+    width: 250px;
+    height: 524px;
+  }
+
+
+
+
+}

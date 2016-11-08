@@ -1,0 +1,34 @@
+.stickers {
+
+  min-height: 700px;
+  background: url('../img/background2.png') bottom no-repeat;
+  background-size: cover;
+  background-color: #035E8D;
+  
+
+}
+
+.mobileW div {
+  width:  275px;
+  height: 580px;
+  margin: 30px auto;
+  display: block;
+  background: url("../img/mobile_w.png") no-repeat 0 0;
+  background-size: contain;
+  padding: 50px 6px 61px;
+
+
+  img {
+    width: 100%;
+    border: none;
+    vertical-align: middle;
+  }
+
+
+}
+
+
+.stickers__description {
+  height: 100%;
+  overflow: hidden;
+}

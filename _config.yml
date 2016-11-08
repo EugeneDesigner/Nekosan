@@ -1,0 +1,11 @@
+
+title: Nekosan App
+description: "Website of the new mobile app Nekosan"
+host: "localhost"
+
+
+
+markdown: 	 kramdown
+permalink:   pretty
+exclude:		 ['_build', '.bowerrc', '.gitignore', '_config.yml', 'bower.json', 'config.rb', 'README.md']
+destination: _deploy

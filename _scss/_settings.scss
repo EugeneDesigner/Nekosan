@@ -1,0 +1,42 @@
+$rem-base: 14px;
+$font-middle: 1.3em;
+$row-width: rem-calc(1300);
+
+//font
+$body-bg: #fff;
+$body-font-color: #222;
+$body-font-family: "Raleway", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+$body-font-weight: normal;
+$body-font-style: normal;
+
+//margins and paddings:
+$padding-top: 20px;
+
+
+
+//colors
+$primary-color: #008CBA;
+$secondary-color: #e7e7e7;
+$alert-color: #f04124;
+$success-color: #43AC6A;
+$warning-color: #f08a24;
+$info-color: #a0d3e8;
+
+//radius
+$global-radius: 3px;
+$global-rounded: 1000px;
+
+
+
+//titles
+
+$h1-size: 3.5em;
+$text-size: 1em;
+
+
+$topbar-bg-color: #fff;
+$topbar-link-color: #000;
+
+
+//query
+$topbar-media-query: "only screen and (min-width: 641px)";

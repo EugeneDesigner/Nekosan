@@ -1,0 +1,83 @@
+.contact {
+  height: 1000px;
+  background: url('../img/background.png') center center no-repeat;
+  background-size: cover;
+  background-color: #00ccd3;
+  position: relative; 
+
+
+  & > div {
+    height: 40%;
+  }
+}
+
+
+
+
+.contact__logo {
+  position: absolute;
+  right: 10px;
+  top: 10%;
+  margin-top: 60px;
+  width: 30%;
+  height: auto;
+  min-width: 250px;
+
+  img {
+    width: 100%;
+  }
+
+}
+
+.contact__citation {
+  position: absolute;
+  top: 42%;
+  left: 0;
+  right: 0;
+  display: block;
+  letter-spacing: .04em;
+  padding: 20px;
+  height: 200px;
+  text-align: center;
+  color: #fff;
+
+  p {
+    font-size: 2em;
+    font-weight: 700;
+    margin-bottom: 90px;
+  }
+
+  a {
+    background-color: black;
+    padding: 20px;
+    display: inline-block;
+    width: 200px;
+    margin: 1px;
+    font-size: 1em;
+    color: #fff;
+    transition: all .1s cubic-bezier(0.445, 0.050, 0.550, 0.950);
+    border: 2px solid transparent;
+  }
+
+  a:hover {
+    color: #000 !important;
+    background-color: #fff;
+  }
+
+  a:visited, a:focus {
+    color: #fff;
+  }
+
+
+
+  [class*="--twitter"] {
+    background-color: #0092ed;
+  }
+
+  [class*="--email"] {
+    background-color: #444444;
+  }
+
+
+
+}
