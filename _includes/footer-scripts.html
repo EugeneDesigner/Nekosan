@@ -5,9 +5,11 @@
 <script src="{{ "/bower_components/foundation/js/vendor/modernizr.js" | prepend: site.baseurl }}"></script>
 <script src="{{ "/bower_components/foundation/js/foundation.min.js" | prepend: site.baseurl }}"></script>
 <script src="{{ "/bower_components/foundation/js/foundation/foundation.orbit.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/bower_components/wow/dist/wow.min.js" | prepend: site.baseurl }}"></script>
 
 <script src="{{ "/js/app.js" | prepend: site.baseurl }}"></script>
 
 <script>
   $(document).foundation();
+  new WOW().init();
 </script>

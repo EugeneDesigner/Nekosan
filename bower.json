@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "private": "true",
   "dependencies": {
-    "foundation": "zurb/bower-foundation"
+    "foundation": "zurb/bower-foundation",
+    "wow": "wowjs#^1.1.2"
   }
 }
